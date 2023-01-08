@@ -72,21 +72,6 @@ public class Uygulama {
         TimerControl t1=new TimerControl();
         t1.calistir(gorevlendirici);
 
-
-		/*int x=1;
-		t1.calistir(x);
-		Queue<Process> kuyrukProcesses=new LinkedList<Process>();
-		kuyrukProcesses.addAll(prosesler);
-		Process p1;
-		//p1=kuyrukProcesses.element();
-		//System.out.println(p1.getGelisZamani());
-		kuyrukProcesses.remove();
-		p1=kuyrukProcesses.element();
-		System.out.println(p1.getGelisZamani());*/
-
-
-
-
         br.close();
 
     }
