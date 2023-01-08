@@ -34,7 +34,8 @@ public class TimerControl {
 									gorevlendirici.calistirPriority2(zaman);
 									kontrol = 2;
 								}
-						if(gorevlendirici.FCFS.isEmpty()==true&&gorevlendirici.priority1.isEmpty()==true&&gorevlendirici.priority2.isEmpty()==true&&gorevlendirici.priority3.isEmpty()==false) {
+						if(gorevlendirici.FCFS.isEmpty()==true&&gorevlendirici.priority1.isEmpty()==true&&gorevlendirici.priority2.isEmpty()==true
+						   &&gorevlendirici.priority3.isEmpty()==false) {
 									
 										gorevlendirici.calistirPriority3(zaman);
 										kontrol = 3;
